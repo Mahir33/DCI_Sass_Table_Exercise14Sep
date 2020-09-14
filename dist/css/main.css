@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.blueTable {
+  border: 1px solid steelblue;
+  background-color: #f4f4f4;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse; }
+  .blueTable td {
+    border: 1px solid #aaaaaa;
+    padding: 3px 2px; }
+  .blueTable th {
+    border: 1px solid #aaaaaa;
+    padding: 3px 2px; }
+  .blueTable tbody td {
+    font-size: 13px; }
+  .blueTable tr:nth-child(even) {
+    background-color: skyblue; }
+  .blueTable thead {
+    background-color: steelblue; }
+    .blueTable thead th {
+      font-size: 15px;
+      font-weight: bold;
+      color: #ffffff;
+      border-left: 2px solid; }
+    .blueTable thead th:first-child {
+      border-left: 1px solid #aaaaaa; }
+  .blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #f4f4f4;
+    background-color: #f4f4f4;
+    border-top: 2px solid #444444; }
+    .blueTable tfoot td {
+      font-size: 14px; }
+
+.links {
+  text-align: right; }
+  .links a {
+    display: inline-block;
+    background-color: steelblue;
+    color: #f4f4f4;
+    padding: 2px 8px;
+    border-radius: 5px; }
+  .links a:active {
+    color: red; }

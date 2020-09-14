@@ -1,0 +1,75 @@
+@import 'variables';
+@import 'function';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blueTable {
+    border: 1px solid $primary-color;
+    background-color: $light-color;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    td {
+        border: 1px solid $middle-color;
+        padding: 3px 2px;
+    }
+
+    th {
+        border: 1px solid $middle-color;
+        padding: 3px 2px;
+    }
+
+    tbody {
+        td {
+            font-size: 13px;
+        }
+    }
+    tr:nth-child(even) {
+        background-color: $secondary-color;
+    }
+
+    thead {
+        background-color: $primary-color;
+        th {
+            font-size: 15px;
+            font-weight: $font-fat;
+            color: #ffffff;
+            border-left: 2px solid;
+            }
+
+         th:first-child {
+                border-left: 1px solid $middle-color;
+        }
+    }
+
+    tfoot {
+        font-size: 14px;
+        font-weight: bold;
+        color: $light-color;
+        background-color: $light-color;
+        border-top: 2px solid $dark-color;
+        td {
+            font-size: 14px;
+            }
+        }
+}
+
+.links {
+    text-align: right;
+
+    a {
+        display: inline-block;
+        background-color: $primary-color;
+        color: $light-color;
+        padding: 2px 8px;
+        border-radius: 5px;
+      }
+
+      a:active {
+        color: $link-active;
+      }
+  }
+   
